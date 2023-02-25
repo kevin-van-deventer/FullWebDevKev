@@ -5,7 +5,7 @@
   z-index: 99;
   opacity: 1;
   transform: none;
-  position: sticky;
+  // position: sticky;
   top: 0px;
   transition: all 300ms ease;
 
@@ -34,7 +34,8 @@
         font-weight: 500;
         flex-direction: column;
         right: 0;
-        top: 3rem;
+        top: 4.5rem;
+        margin-right: 20px;
         height: calc(100vh - 6.3rem);
         width: 50%;
         min-width: 15rem;
@@ -47,6 +48,8 @@
         padding: 3rem;
         justify-content: flex-start;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        // color: black;
+        color: $secondary;
       }
 
       text-transform: uppercase;
@@ -54,15 +57,19 @@
       list-style: none;
       gap: 1.5rem;
       cursor: pointer;
+      color: $secondary;
 
       li {
         a {
-          color: inherit;
+          @media (max-width: $sm), (max-width: $md) {
+            color: black;
+          }
           text-decoration: none;
+          color: $primary;
         }
 
         &:hover {
-          color: $secondary;
+          color: $primary;
         }
       }
 
@@ -83,6 +90,7 @@
     .menuIcon {
       @media (max-width: $sm), (max-width: $md) {
         display: block;
+        padding: 0rem 1rem;
       }
 
       display: none;

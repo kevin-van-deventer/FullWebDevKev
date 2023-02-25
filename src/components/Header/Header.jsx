@@ -66,7 +66,7 @@ const Header = () => {
           className={css.menuIcon}
           onClick={() => setMenuOpened((prev) => !prev)}
         >
-          <BiMenuAltRight size={30} />
+          <BiMenuAltRight size={40} />
         </div>
       </div>
     </motion.div>

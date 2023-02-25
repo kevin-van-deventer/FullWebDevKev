@@ -38,9 +38,9 @@ const People = () => {
         <div className={`yPaddings ${css.comments}`}>
           {/* to use slider , we have to inlcude css in index.html head */}
           <Slider {...sliderSettings} className={css.slider}>
-            {comments.map((comment, i) => {
+            {comments.map((comment, index) => {
               return (
-                <div className={`flexCenter ${css.comment}`}>
+                <div className={`flexCenter ${css.comment}`} key={index}>
                   <img src={comment.img} alt="{comment.backLink}" />
                   <p className="tersiaryText">{comment.comment}</p>
                   <div className={css.line}></div>
