@@ -1,5 +1,8 @@
 @import "./../../styles/contants.scss";
-
+.active-page {
+  color: $secondary !important;
+  text-decoration: underline;
+}
 .wrapper {
   position: relative;
   z-index: 99;

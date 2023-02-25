@@ -1,20 +1,29 @@
 import React, { useEffect, useRef, useState } from "react"
-import css from "./Header.module.scss"
+
+// import react Link
+import { Link } from "react-router-dom"
+
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi"
 import { motion } from "framer-motion"
 import { getMenuStyles, headerVariants } from "../../utils/motion"
 import useOutsideAlerter from "../../hooks/useOutsideAlerter"
 import useHeaderShadow from "../../hooks/useHeaderShadow"
+// styles
+import css from "./Header.module.scss"
+import { useLocation } from "react-router-dom"
 
 const Header = () => {
   const menuRef = useRef(null)
   const [menuOpened, setMenuOpened] = useState(false)
   const headerShadow = useHeaderShadow()
+  const loca = useLocation()
+  // console.log(loca.pathname)
 
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
     menuRef,
     setMenuOpened,
+    loca,
   })
 
   return (
@@ -29,7 +38,7 @@ const Header = () => {
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div>
-          <a href="https://www.fullwebdevkev.com/">
+          <a href="/" alt="Go to Full Stack Web Development Kevin Home page">
             <img
               src="./android-chrome-192x192.png"
               alt="full stack web developer kevin portfolio logo"
@@ -43,9 +52,18 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li>
-            <a href="#experties">Experties</a>
-          </li>
+          {loca === "/developer" ? (
+            <li className="active-page">
+              <Link to="/developer">Developer</Link>
+            </li>
+          ) : (
+            <li>
+              <Link to="/developer" className="active-page">
+                Developer
+              </Link>
+            </li>
+          )}
+
           <li>
             <a href="#work">Work</a>
           </li>
