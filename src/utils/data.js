@@ -6,19 +6,19 @@ export const projectExperience = [
     name: "Website Design",
     projects: 76,
     icon: HiOutlineDesktopComputer,
-    bg: "#286F6C",
+    bg: "rgb(194, 24, 24)",
   },
   {
     name: "Mobile App Design",
     projects: 63,
     icon: CiMobile1,
-    bg: "#EEC048",
+    bg: "rgb(24, 75, 194)",
   },
   {
     name: "Brand Identity",
     projects: 47,
     icon: MdWorkspacesOutline,
-    bg: "#F26440",
+    bg: "rgb(24, 194, 55)",
   },
 ];
 
@@ -37,31 +37,31 @@ export const workExp = [
   },
   {
     place: "FreeLance, International",
-    tenure: "Aug 2020 - Dec 2020",
+    tenure: "Aug 2019 - Dec 2020",
     role: "Jnr Developer & Designer",
     detail:
       "Designing and implementing user-friendly and visually appealing web pages and interfaces.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Shield technology",
+    tenure: "Aug 2017 - Sep 2018",
+    role: "Senior Data Analyst",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Examining, interpreting, and analyzing large sets of data to extract valuable insights and make data-driven decisions. Useing various tools and techniques to clean, process, and manipulate data to identify patterns, trends, and correlations.",
   },
 ];
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "TechWhisper",
+    post: "Director",
     comment:
       "I had the pleasure of working with Kevin on a website design project and I was truly impressed with his skills and dedication. He took the time to understand my needs and delivered a solution that exceeded my expectations. His attention to detail and ability to stay up-to-date with the latest technologies made him a valuable asset to the project. I highly recommend Kevin for any web development needs.",
     img: "./people2.png",
   },
   {
     name: "Fitzgerald Housing",
-    post: "Property Investing Charity",
+    post: "CEO",
     comment:
       "I was looking for a developer who could bring my vision to life and Kevin did just that. He designed a beautiful and functional website for my business that has received many compliments. He was professional, responsive, and went above and beyond to ensure I was satisfied with the end result. I would definitely work with him again in the future.",
     img: "./people1.png",
@@ -69,54 +69,54 @@ export const comments = [
     imgLink: "https://www.fitzgeraldhousing.org.au/",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "EFSR",
+    post: "Senior Manager",
     comment:
       "Kevin's expertise in web development and design is truly exceptional. He brought a unique perspective and innovative ideas to the table, resulting in a high-quality end product. He was able to manage the project with ease, effectively communicating with my team and delivering on-time. I am very grateful for his contribution to our project and would highly recommend him to others.",
     img: "./people2.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "KanSeng",
+    post: "Owner CEO",
     comment:
       "Kevin is a talented and knowledgeable full-stack developer. He has an eye for design and the technical skills to bring it to life. He was able to take my project from concept to completion with ease and efficiency. He was always available to answer my questions and offer solutions to any challenges that arose. I highly recommend him for anyone looking for a reliable and skilled developer.",
     img: "./people1.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "VD Realty Solutions",
+    post: "Co-Owner",
     comment:
       "Kevin's work on my mobile app design project was nothing short of amazing. He took the time to understand my vision and was able to translate it into a seamless and user-friendly app. His professionalism and attention to detail was apparent in every aspect of the project. I would definitely work with him again and highly recommend him to others.",
     img: "./people2.png",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "As a brand identity designer, Kevin is second to none. He took the time to understand my brand and created a unique and memorable design that accurately reflected my company. His creativity and expertise in design and web development made him a valuable asset to my project. I highly recommend him to anyone looking for a talented and professional designer.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "I have worked with Kevin on several projects over the past few years and I have been consistently impressed with his skills and dedication. He has a deep understanding of web development and design, and is always up-to-date with the latest technologies. He is a true professional who always delivers high-quality work and exceeds my expectations. I would not hesitate to recommend him to others.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "I had the privilege of working with Kevin on a website redesign project and he was an absolute pleasure to work with. He took the time to understand my goals and was able to create a solution that was not only beautiful, but also functional. His expertise in web development and design was evident in the end result, and I was extremely satisfied with his work. I would highly recommend him to anyone looking for a talented and professional developer.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Kevin's design skills are truly exceptional. He was able to create a unique and visually appealing design that accurately reflected my brand. His attention to detail and commitment to delivering a high-quality end product was evident in every aspect of the project. I would not hesitate to work with him again and would highly recommend him to others.",
-    img: "./people2.png",
-  },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "As a brand identity designer, Kevin is second to none. He took the time to understand my brand and created a unique and memorable design that accurately reflected my company. His creativity and expertise in design and web development made him a valuable asset to my project. I highly recommend him to anyone looking for a talented and professional designer.",
+  //   img: "./people1.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "I have worked with Kevin on several projects over the past few years and I have been consistently impressed with his skills and dedication. He has a deep understanding of web development and design, and is always up-to-date with the latest technologies. He is a true professional who always delivers high-quality work and exceeds my expectations. I would not hesitate to recommend him to others.",
+  //   img: "./people2.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "I had the privilege of working with Kevin on a website redesign project and he was an absolute pleasure to work with. He took the time to understand my goals and was able to create a solution that was not only beautiful, but also functional. His expertise in web development and design was evident in the end result, and I was extremely satisfied with his work. I would highly recommend him to anyone looking for a talented and professional developer.",
+  //   img: "./people1.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Kevin's design skills are truly exceptional. He was able to create a unique and visually appealing design that accurately reflected my brand. His attention to detail and commitment to delivering a high-quality end product was evident in every aspect of the project. I would not hesitate to work with him again and would highly recommend him to others.",
+  //   img: "./people2.png",
+  // },
 ];
 
 export const sliderSettings = {

@@ -1,5 +1,10 @@
 @import "./contants.scss";
 
+.active-page {
+  color: $secondary;
+  text-decoration: none;
+}
+
 .bg-primary {
   // background: #f1f6f8;
   background: rgb(24, 24, 24);

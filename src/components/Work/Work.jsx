@@ -53,19 +53,19 @@ const Work = () => {
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#286F6C" }}
+                style={{ background: "rgb(194, 24, 24)" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#F2704E" }}
+                style={{ background: "rgb(24, 75, 194)" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "#EEC048" }}
+                style={{ background: "rgb(24, 194, 55)" }}
               ></div>
             </div>
           </motion.div>

@@ -52,7 +52,36 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          {loca === "/developer" ? (
+          <li>
+            <Link
+              to="/developer"
+              className={`${loca} === "/developer" ? "active-page" : ""`}
+            >
+              Developer
+            </Link>
+          </li>
+
+          {/* {loca === "/developer" ? (
+            <li className="active-page">
+              <Link to="/developer">Developer</Link>
+            </li>
+          ) : (
+            <li>
+              <Link to="/developer">Developer</Link>
+            </li>
+          )} */}
+
+          {loca === "/contact" ? (
+            <li className="active-page">
+              <Link to="/contact">Contact</Link>
+            </li>
+          ) : (
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+          )}
+
+          {/* {loca === "/developer" ? (
             <li className="active-page">
               <Link to="/developer">Developer</Link>
             </li>
@@ -62,9 +91,8 @@ const Header = () => {
                 Developer
               </Link>
             </li>
-          )}
-
-          <li>
+          )} */}
+          {/* <li>
             <a href="#work">Work</a>
           </li>
           <li>
@@ -72,7 +100,7 @@ const Header = () => {
           </li>
           <li>
             <a href="#people">Testimonials</a>
-          </li>
+          </li> */}
           <li className={`flexCenter ${css.phone}`}>
             <p>(+855) 96 264 4430</p>
             <BiPhoneCall size={"40px"} />
