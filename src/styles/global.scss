@@ -40,7 +40,21 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.paddingsDev {
+  @media (min-width: $sm) {
+    padding: 4rem 4rem;
+  }
 
+  // @media (min-width: $xl), (min-width: $md) {
+  //   padding-top: 2rem;
+  //   padding-bottom: 2rem;
+  // }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 .xPaddings {
   @media (min-width: $sm) {
     padding-left: 4rem;

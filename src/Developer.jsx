@@ -1,10 +1,10 @@
 import React from "react"
 
-// import Experties from "./components/Experties/Experties"
 import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
-
 import DevHero from "./components/DevHero/DevHero"
+import Experties from "./components/Experties/Experties"
+
+import Footer from "./components/Footer/Footer"
 
 // import People from "./components/People/People"
 // import Portfolio from "./components/Portfolio/Portfolio"
@@ -18,8 +18,8 @@ const Developer = () => {
       <Header />
 
       <DevHero />
-      {/* <Experties />
-      <Work />
+      <Experties />
+      {/* <Work />
       <Portfolio />
       <People /> */}
       <Footer />

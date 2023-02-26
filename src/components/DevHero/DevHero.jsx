@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 const DevHero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`paddings paddings ${css.wrapper}`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -47,37 +47,7 @@ const DevHero = () => {
           Certified Professional Full Stack Web Developer
         </a>
 
-        <div className={css.lowerElements}>
-          <motion.div
-            variants={fadeIn("right", "tween", 0.3, 1)}
-            className={css.experience}
-          >
-            <div className="primaryText">🖐</div>
-            <div className="secondaryText">
-              <div>Beautiful and Functional</div>
-              <div>Businesses and Individuals</div>
-            </div>
-          </motion.div>
-
-          {/* link to next section */}
-          <motion.div
-            variants={fadeIn("left", "tween", 0.5, 1)}
-            className={css.certificate}
-          >
-            <a href="#experties">
-              <button className="toggleSection">Experties</button>{" "}
-            </a>
-          </motion.div>
-
-          <motion.div
-            variants={fadeIn("left", "tween", 0.5, 1)}
-            className={css.certificate}
-          >
-            <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFESSIONAL</span>
-            <span>FULL STACK WEB DEVELOPER</span>
-          </motion.div>
-        </div>
+        <div className={css.lowerElements}></div>
       </motion.div>
     </section>
   )

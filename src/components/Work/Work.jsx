@@ -3,9 +3,9 @@ import { workExp } from "../../utils/data"
 import css from "./Work.module.scss"
 import { motion } from "framer-motion"
 import {
-  draw,
+  // draw,
   fadeIn,
-  slideIn,
+  // slideIn,
   staggerChildren,
   textVariant2,
   zoomIn,
