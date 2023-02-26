@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 const DevHero = () => {
   return (
-    <section className={`paddings paddings ${css.wrapper}`}>
+    <section className={`paddings ${css.wrapper}`}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -18,17 +18,18 @@ const DevHero = () => {
             className="primaryText"
             variants={fadeIn("right", "tween", 0.2, 1)}
           >
-            Web
+            Full Stack
             <br />
-            Developer
+            Web Developer?
           </motion.span>
+
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}
           >
-            Front End Design
+            All in one solutons provider.
             <br />
-            Backend End Architecture{" "}
+            Find out more about FullWedbDevKev.
           </motion.span>
         </div>
 
@@ -43,11 +44,6 @@ const DevHero = () => {
           />
         </motion.div>
         {/* link to github or something */}
-        <a className={css.email}>
-          Certified Professional Full Stack Web Developer
-        </a>
-
-        <div className={css.lowerElements}></div>
       </motion.div>
     </section>
   )

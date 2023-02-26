@@ -10,6 +10,7 @@ import {
   textVariant2,
   zoomIn,
 } from "../../utils/motion"
+
 const Work = () => {
   return (
     <motion.section
@@ -53,19 +54,19 @@ const Work = () => {
             <div>
               <div
                 className={css.circle}
-                style={{ background: "rgb(194, 24, 24)" }}
+                style={{ background: "rgb(5 244 141)" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "rgb(24, 75, 194)" }}
+                style={{ background: "rgb(0 193 245)" }}
               ></div>
             </div>
             <div>
               <div
                 className={css.circle}
-                style={{ background: "rgb(24, 194, 55)" }}
+                style={{ background: "rgb(237 29 78)" }}
               ></div>
             </div>
           </motion.div>
@@ -75,7 +76,7 @@ const Work = () => {
             className={css.certificate}
           >
             <a href="#portfolio">
-              <button className="toggleSection">My Work</button>{" "}
+              <button className="toggleSection">Full Web Dev Kev Work</button>{" "}
             </a>
           </motion.div>
         </div>

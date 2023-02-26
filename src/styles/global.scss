@@ -1,5 +1,8 @@
 @import "./contants.scss";
 
+* {
+  font-family: "Eudoxus-Sans";
+}
 .active-page {
   color: $secondary;
   text-decoration: none;
@@ -158,6 +161,29 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
+.secondaryBlackText {
+  z-index: 3;
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+  line-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: black;
+}
+.tersiaryBlackText {
+  z-index: 3;
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+    line-height: 40px;
+  }
+  line-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
+}
+
 .anchor {
   display: block;
   position: relative;

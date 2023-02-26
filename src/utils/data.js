@@ -1,37 +1,49 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
+
+import { FaAppStore } from "react-icons/fa"
+import { SiNativescript } from "react-icons/si"
+import { SiJamstack } from "react-icons/si"
+
+import { MdDeveloperMode } from "react-icons/md"
+import { HiServer } from "react-icons/hi"
+import { RiAdvertisementFill } from "react-icons/ri"
+
+import { RxAccessibility } from "react-icons/rx"
+import { SiGoogleanalytics } from "react-icons/si"
+import { MdManageAccounts } from "react-icons/md"
+
+
+// homepage
 export const projectExperience = [
   {
     name: "Website Design",
     projects: 76,
     icon: HiOutlineDesktopComputer,
-    bg: "rgb(194, 24, 24)",
+    bg: "rgb(5 244 141)",
   },
   {
     name: "Mobile App Design",
     projects: 63,
     icon: CiMobile1,
-    bg: "rgb(24, 75, 194)",
+    bg: "rgb(0 193 245)",
   },
   {
     name: "Brand Identity",
     projects: 47,
     icon: MdWorkspacesOutline,
-    bg: "rgb(24, 194, 55)",
+    bg: "rgb(237 29 78)",
   },
 ];
 
-export const WhatDoIHelp = [
-  "Creating beautiful and functional websites that meet the needs of businesses and individuals alike.",
-  "I strive to stay up-to-date with the latest technologies and trends in the industry to deliver top-notch solutions to my clients.",
-];
+export const WhatDoIHelp = ["Creating beautiful and functional websites that meet the needs of businesses and individuals alike.","I strive to stay up-to-date with the latest technologies and trends in the industry to deliver top-notch solutions to my clients."]
 
 export const workExp = [
   {
     place: "Full-Time, Australia, Sydney",
     tenure: "Jan 2021 - Ungoing",
-    role: "Senior Developer",
+    role: "Full Stack Developer",
     detail:
       "Designing, developing, and maintaining websites and web applications. Lead projects and supervise junior developers.",
   },
@@ -156,3 +168,91 @@ export const sliderSettings = {
     },
   ],
 };
+
+// developer page
+export const BioContent = [
+  `I am a full stack web developer who is committed to delivering high-quality projects for various clients. My experience covers a wide range of areas such as web apps, MERN stack, digital marketing, analytics and more. Explore my skills and services and understand why I am the right choice for your next web development project.`,
+  "WEB APPS: Developing web applications that are scalable, reliable, and user - friendly. Having years of experience in building web applications using various technologies such as React, Angular, Node.js, and more. I develop custom web applications that meet the specific needs of your business.",
+  "MERN STACK: With my knowledge in the MERN stack(MongoDB, Express.js, React.js, and Node.js). I can develop complex web applications using the MERN stack that are fast, secure, and efficient. I use the latest tools and technologies to ensure that the web applications are of the highest quality.",
+  "STATIC SITES: I develop static sites that are lightweight, fast, and SEO-friendly. I ensure that the static sites are optimized for performance and can be accessed across all devices. I use the latest technologies such as Gatsby, Next.js, and Hugo to develop static sites.",
+  "JAMSTACK:  The JAMstack (JavaScript, APIs, and Markup) can develop web applications that are fast, secure, and scalable. Using technologies such as Netlify, Vercel, and AWS to ensure phenominal that the JAMstack web applications.",
+  "NATIVE APPS: I develop native apps for iOS and Android platforms using React Native.  He uses the latest tools and technologies such as Redux, Expo, and Firebase to develop native apps.",
+  "UI/UX: I have an eye for detail and can design user interfaces that are aesthetically pleasing and easy to use. He ensures that the user interfaces are intuitive and user-friendly. Figma, Sketch, and Adobe XD to design user interfaces.",
+  "HOSTING: I provide hosting solutions that are reliable, secure, and scalable. Set up private servers for your web applications and ensure that they are optimized for performance.AWS, DigitalOcean, and Heroku to provide hosting solutions.",
+  "MARKETING: I provide marketing solutions tailored to your business needs that can help your business reach its target audience.",
+  "ACCESSIBILITY: I ensure that the web applications that I develop are accessible to everyone. I follow the latest web accessibility guidelines such as WCAG 2.1.",
+  "AUDIT & DEVELOPMENT: As a full stack web developer, I have an extensive range of skills and experience in various web development technologies, including MERN stack, React Native, JAMstack, and more.",
+  "UI/UX: I have a keen eye for detail when it comes to user interface and user experience design. Visually appealing designs that are easy to navigate and use. Your website or application will not only look great but also be easy to use for your target audience.",
+  "HOSTING: Providing hosting solutions for my clients, including private servers that are secure, reliable and optimized for speed, security, and reliability.",
+  "MARKETING: Having experience in digital marketing. Creating successful online marketing campaigns. Improve your online presence and attract more visitors.",
+  "ACCESSIBILITY: I am committed to creating websites and applications that are accessible to everyone. Ensuring that people with disabilities can access and use websites and applications. Ensure that your website or application meets the latest web accessibility standards.",
+  "AUDIT & TESTING: I also provide audit and testing services to ensure that websites and applications are running at optimal performance, and to identify and fix any issues that may be affecting website or application performance.",
+  "ANALYTICS: The importance of data in making informed decisions,using various analytics tools to track website or application performance and user behavior. Gain valuable insights into how your website or application is performing and make data-driven decisions to improve its performance.",
+  "SEO & SECURITY: Having experience in search engine optimization (SEO) and website security. The importance of optimizing websites for search engines and ensuring that they are secure from cyber threats has become more vital.",
+  "MANAGEMENT: I am also skilled in project management, ensuring that projects are completed on time and within budget. I am proactive in my communication and keeps clients updated on the progress of their projects.",
+  "WEB OPTIMIZATION: Finally, the importance of web optimization in ensuring that websites and applications are running at optimal performance. I optimize website and application performance, including optimizing images, minimizing code, and caching.",
+  "CONCLUSION: I am a skilled and experienced full stack web developer who delivers high-quality projects to my clients. With my expertise in web development, I am the ideal choice for any web development project. So, if you're looking for a reliable and experienced web developer, look no further than Kevin Van Deventer."
+];
+
+export const softwareStacks = [
+  {
+    name: "WEB APPS",
+    projects: "MERN STACK",
+    icon: FaAppStore,
+    bg: "rgb(237 29 78)",
+  },
+  {
+    name: "STATIC SITES",
+    projects: "JAMSTACK",
+    icon: SiJamstack,
+    bg: "rgb(237 29 78)",
+  },
+  {
+    name: "NATIVE APPS",
+    projects: "REACT NATIVE",
+    icon: SiNativescript,
+    bg: "rgb(237 29 78)",
+  },
+];
+
+export const developmentServices= [
+  {
+    name: "DEVELOPMENT",
+    projects: "UI/UX",
+    icon: MdDeveloperMode,
+    bg: "rgb(0 193 245)",
+  },
+  {
+    name: "HOSTING",
+    projects: "Private Servers",
+    icon: HiServer,
+    bg: "rgb(0 193 245)",
+  },
+  {
+    name: "MARKETING",
+    projects: "DIGITAL MARKETING",
+    icon: RiAdvertisementFill,
+    bg: "rgb(0 193 245)",
+  },
+];
+
+export const performanceServices= [
+  {
+    name: "ACCESSIBILITY",
+    projects: "AUDIT & TESTING",
+    icon: RxAccessibility,
+    bg: "rgb(5 244 141)",
+  },
+  {
+    name: "ANALYTICS",
+    projects: "SEO & SECURITY",
+    icon: SiGoogleanalytics,
+    bg: "rgb(5 244 141)",
+  },
+  {
+    name: "MANAGEMENT",
+    projects: "WEB OPTIMIZATION",
+    icon: MdManageAccounts,
+    bg: "rgb(5 244 141)",
+  },
+];

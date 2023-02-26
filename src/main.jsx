@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 // pages
 import Home from "./Home"
 import Developer from "./Developer"
+import Contact from "./Contact"
 // components
 
 // styles
@@ -22,7 +23,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/developer" element={<Developer />} />
-        {/* <Route path="/development" element={<Developer />} /> */}
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/*"></Route>
       </Routes>
     </Router>
     {/* </Switch> */}

@@ -1,0 +1,31 @@
+Front-end development technologies/Client-side development technologies/User interface (UI) development technologies/Web design technologies/Front-end web technologies: 
+HTML, CSS, JavaScript, React, Angular, Vue.js, Bootstrap
+
+Back-end development technologies/Server-side development technologies/Back-end web technologies/Application logic technologies/Database technologies: 
+PHP, Ruby, SQL, Node.js
+
+Content Management Systems/CMS/Web content management systems (WCMS)/Enterprise content management systems (ECMS)/Digital content management systems (DCMS)/Web publishing systems/Blogging platforms: 
+WordPress, Drupal, Joomla
+
+
+Web Design and User Experience/UX Design/User-centered design/Interaction design/Human-computer interaction (HCI)/Usability design/User interface (UI) design: 
+Responsive Design, User Experience (UX), User Interface (UI)
+
+Web Development Frameworks/Web application frameworks/Full-stack frameworks/Server-side frameworks/Client-side frameworks/Backend frameworks/Frontend frameworks: 
+Content Management System (CMS), Web Development Frameworks
+
+Web Security/Cybersecurity/Web application security/Information security/Internet security/Network security/Web vulnerability management
+
+Web risk assessment/Web vulnerability assessment/Website security audit/Web penetration testing/Web security assessment/
+
+Web application security testing/Web vulnerability testing/Web penetration testing/Web security testing/Application security testing/Web vulnerability assessment/
+
+Web risk assessment: Web Security
+
+Web Hosting/Website hosting/Internet hosting/Web server hosting/Cloud hosting/Shared hosting/VPS hosting (Virtual Private Server)/Dedicated server hosting/Colocation hosting/Managed hosting/Self-managed hosting: Web Hosting
+
+Website Optimization/Web performance optimization/Website speed optimization/Page speed optimization/Search engine optimization (SEO)/Conversion rate optimization (CRO)/User experience optimization/Mobile optimization Website usability optimization: Website Optimization
+
+Mobile App Development: Mobile App Development
+
+E-commerce: E-commerce
