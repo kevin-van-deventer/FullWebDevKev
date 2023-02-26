@@ -27,5 +27,5 @@
 # server the dist folder and nothing alse
 
 /* 
-! .gitignore
-! /dist
+!.gitignore
+!dist
