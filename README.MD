@@ -1,3 +1,15 @@
+# TODO
+
+- [ ] add react helmet for proper seo
+- [ ] add google analytics
+- [ ] add google tag manager
+- [ ] add google search console
+- [ ] add google webmaster tools
+- [ ] add google fonts
+- [ ] add favicon
+- [ ] add Social tags are totally missing
+      TIP
+
 # html setup
 
 - html5 boilerplate
