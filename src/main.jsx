@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import { HelmetProvider } from "react-helmet-async"
 // routing
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 // seo
@@ -18,15 +19,16 @@ import "./styles/index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <Switch> */}
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/developer" element={<Developer />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/*"></Route>
-      </Routes>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/developer" element={<Developer />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/*"></Route>
+        </Routes>
+      </Router>
+    </HelmetProvider>
     {/* </Switch> */}
   </React.StrictMode>
 )

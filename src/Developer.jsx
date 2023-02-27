@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet-async"
 
 import Header from "./components/Header/Header"
 import DevHero from "./components/DevHero/DevHero"
@@ -15,17 +16,24 @@ import css from "./styles/App.module.scss"
 const Developer = () => {
   //don't forget to add font link in index.html
   return (
-    <div className={`bg-primary ${css.container}`}>
-      <Header />
+    <>
+      <Helmet>
+        <title>Developer | About Full Stack Web Developer</title>
+        <meta name="description" content="Fullwebdevkev developer page" />
+        <link rel="canonical" href="/developer" />
+      </Helmet>
+      <div className={`bg-primary ${css.container}`}>
+        <Header />
 
-      <DevHero />
-      <InfoCards />
-      <Bio />
-      {/* <Work />
+        <DevHero />
+        <InfoCards />
+        <Bio />
+        {/* <Work />
       <Portfolio />
       <People /> */}
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet-async"
 
 import Experties from "./components/Experties/Experties"
 import Footer from "./components/Footer/Footer"
@@ -12,15 +13,22 @@ import css from "./styles/App.module.scss"
 const Home = () => {
   //don't forget to add font link in index.html
   return (
-    <div className={`bg-primary ${css.container}`}>
-      <Header />
-      <Hero />
-      <Experties />
-      <Work />
-      <Portfolio />
-      <People />
-      <Footer />
-    </div>
+    <>
+      <Helmet>
+        <title>Home | Full Stack Web Developers</title>
+        <meta name="description" content="Fullwebdevkev homepage" />
+        <link rel="canonical" href="/" />
+      </Helmet>
+      <div className={`bg-primary ${css.container}`}>
+        <Header />
+        <Hero />
+        <Experties />
+        <Work />
+        <Portfolio />
+        <People />
+        <Footer />
+      </div>
+    </>
   )
 }
 
