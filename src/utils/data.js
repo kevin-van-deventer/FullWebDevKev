@@ -70,6 +70,9 @@ export const comments = [
     comment:
       "I had the pleasure of working with Kevin on a website design project and I was truly impressed with his skills and dedication. He took the time to understand my needs and delivered a solution that exceeded my expectations. His attention to detail and ability to stay up-to-date with the latest technologies made him a valuable asset to the project. I highly recommend Kevin for any web development needs.",
     img: "./people2.png",
+    imgAlt: "Online digital solutions by TechWhisper South Africa",
+    imgLink: "https://techwhisper.info/",
+    follow: "no-follow"
   },
   {
     name: "Fitzgerald Housing",
@@ -79,6 +82,7 @@ export const comments = [
     img: "./people1.png",
     imgAlt: "Fitzgerald Housing Property Investors Australia",
     imgLink: "https://www.fitzgeraldhousing.org.au/",
+    follow: "no-follow"
   },
   {
     name: "EFSR",
@@ -86,6 +90,7 @@ export const comments = [
     comment:
       "Kevin's expertise in web development and design is truly exceptional. He brought a unique perspective and innovative ideas to the table, resulting in a high-quality end product. He was able to manage the project with ease, effectively communicating with my team and delivering on-time. I am very grateful for his contribution to our project and would highly recommend him to others.",
     img: "./people2.png",
+    follow: "no-follow"
   },
   {
     name: "KanSeng",
@@ -93,6 +98,9 @@ export const comments = [
     comment:
       "Kevin is a talented and knowledgeable full-stack developer. He has an eye for design and the technical skills to bring it to life. He was able to take my project from concept to completion with ease and efficiency. He was always available to answer my questions and offer solutions to any challenges that arose. I highly recommend him for anyone looking for a reliable and skilled developer.",
     img: "./people1.png",
+    imgAlt: "KanSeng Online Fashion Store Cambodia",
+    imgLink: "https://kanseng.shop/",
+    follow: "no-follow"
   },
   {
     name: "VD Realty Solutions",
@@ -100,6 +108,9 @@ export const comments = [
     comment:
       "Kevin's work on my mobile app design project was nothing short of amazing. He took the time to understand my vision and was able to translate it into a seamless and user-friendly app. His professionalism and attention to detail was apparent in every aspect of the project. I would definitely work with him again and highly recommend him to others.",
     img: "./people2.png",
+    imgAlt: "Van Deventer Realty Solutions South Africa",
+    imgLink: "https://kvdrealtysolutions.com/",
+    follow: "no-follow"
   },
   // {
   //   name: "Anamika Sandula",

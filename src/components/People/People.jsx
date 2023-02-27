@@ -49,7 +49,7 @@ const People = () => {
                     <a
                       className="tersiaryText"
                       href={comment.imgLink}
-                      rel="no-follow"
+                      rel={comment.follow}
                     >
                       <span>{comment.post}</span>
                     </a>
