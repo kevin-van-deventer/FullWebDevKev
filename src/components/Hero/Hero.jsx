@@ -43,8 +43,12 @@ const Hero = () => {
           />
         </motion.div>
 
-        <a className={css.email} href="mailto:kevinlenovomail@gmail.com">
-          kevinlenovomail@gmail.com
+        <a
+          className={css.email}
+          href="mailto:admin@fullwebdevkev.com"
+          rel="no-follow"
+        >
+          admin@fullwebdevkev.com
         </a>
 
         <div className={css.lowerElements}>
@@ -64,7 +68,7 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}
           >
-            <a href="#experties">
+            <a href="#experties" rel="no-follow">
               <button className="toggleSection">Experties</button>{" "}
             </a>
           </motion.div>

@@ -46,7 +46,11 @@ const People = () => {
                   <div className={css.line}></div>
                   <div className={css.bio}>
                     <span className="tersiaryText">{comment.name}</span>
-                    <a className="tersiaryText" href={comment.imgLink}>
+                    <a
+                      className="tersiaryText"
+                      href={comment.imgLink}
+                      rel="no-follow"
+                    >
                       <span>{comment.post}</span>
                     </a>
                   </div>

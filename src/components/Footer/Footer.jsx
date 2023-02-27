@@ -21,7 +21,10 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="tersiaryPrimary">
-            Start by <a href="mailto:kevinlenovomail@gmail.com">saying hi</a>
+            Start by{" "}
+            <a href="mailto:admin@fullwebdevkev.com" rel="no-follow">
+              saying hi
+            </a>
           </span>
         </div>
 
@@ -37,16 +40,24 @@ const Footer = () => {
         <div className={`${css.right} tersiaryText`}>
           <ul className={css.menu}>
             <li>
-              <a href="#experties">Experties</a>
+              <a href="#experties" rel="no-follow">
+                Experties
+              </a>
             </li>
             <li>
-              <a href="#work">Work</a>
+              <a href="#work" rel="no-follow">
+                Work
+              </a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio" rel="no-follow">
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="#people">Testimonials</a>
+              <a href="#people" rel="no-follow">
+                Testimonials
+              </a>
             </li>
           </ul>
         </div>

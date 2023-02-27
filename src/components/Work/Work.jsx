@@ -3,9 +3,7 @@ import { workExp } from "../../utils/data"
 import css from "./Work.module.scss"
 import { motion } from "framer-motion"
 import {
-  // draw,
   fadeIn,
-  // slideIn,
   staggerChildren,
   textVariant2,
   zoomIn,
@@ -75,7 +73,7 @@ const Work = () => {
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}
           >
-            <a href="#portfolio">
+            <a href="#portfolio" rel="no-follow">
               <button className="toggleSection">Full Web Dev Kev Work</button>{" "}
             </a>
           </motion.div>

@@ -1,12 +1,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import css from "./Portfolio.module.scss"
-import {
-  fadeIn,
-  staggerChildren,
-  textVariant,
-  textVariant2,
-} from "../../utils/motion"
+import { fadeIn, staggerChildren, textVariant } from "../../utils/motion"
 const Portfolio = () => {
   return (
     <motion.section
@@ -54,7 +49,7 @@ const Portfolio = () => {
           variants={fadeIn("left", "tween", 0.5, 1)}
           className={css.certificate}
         >
-          <a href="#people">
+          <a href="#people" rel="no-follow">
             <button className="toggleSection">Testimonials</button>{" "}
           </a>
         </motion.div>

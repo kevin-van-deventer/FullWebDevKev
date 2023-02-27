@@ -32,7 +32,6 @@ const Header = () => {
       initial="hidden"
       whileInView="show"
       className={`bg-primary  ${css.wrapper}`}
-      // paddings
       viewport={{ once: true, amount: 0.25 }}
       style={{ boxShadow: headerShadow }}
     >
@@ -43,10 +42,10 @@ const Header = () => {
               src="./android-chrome-192x192.png"
               alt="full stack web developer kevin portfolio logo"
               id="fullWebDevKevLogo"
+              title="Full Stack Web Developer Kevin"
             />
           </a>
         </div>
-        {/* <div className={css.name}>Kevin</div> */}
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -61,16 +60,6 @@ const Header = () => {
             </Link>
           </li>
 
-          {/* {loca === "/developer" ? (
-            <li className="active-page">
-              <Link to="/developer">Developer</Link>
-            </li>
-          ) : (
-            <li>
-              <Link to="/developer">Developer</Link>
-            </li>
-          )} */}
-
           {loca === "/contact" ? (
             <li className="active-page">
               <Link to="/contact">Contact</Link>
@@ -80,30 +69,11 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
           )}
-
-          {/* {loca === "/developer" ? (
-            <li className="active-page">
-              <Link to="/developer">Developer</Link>
-            </li>
-          ) : (
-            <li>
-              <Link to="/developer" className="active-page">
-                Developer
-              </Link>
-            </li>
-          )} */}
-          {/* <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#people">Testimonials</a>
-          </li> */}
           <li className={`flexCenter ${css.phone}`}>
-            <p>(+855) 96 264 4430</p>
-            <BiPhoneCall size={"40px"} />
+            <a href="tel:+855962644430">(+855) 96 264 4430</a>
+            <a href="https://fullwebdevkev.info" rel="no-follow">
+              <BiPhoneCall size={"40px"} />
+            </a>
           </li>
         </ul>
 

@@ -60,7 +60,7 @@ const Experties = () => {
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}
           >
-            <a href="#work">
+            <a href="#work" rel="no-follow">
               <button className="toggleSection">Experience</button>{" "}
             </a>
           </motion.div>
