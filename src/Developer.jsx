@@ -24,13 +24,9 @@ const Developer = () => {
       </Helmet>
       <div className={`bg-primary ${css.container}`}>
         <Header />
-
         <DevHero />
         <InfoCards />
         <Bio />
-        {/* <Work />
-      <Portfolio />
-      <People /> */}
         <Footer />
       </div>
     </>

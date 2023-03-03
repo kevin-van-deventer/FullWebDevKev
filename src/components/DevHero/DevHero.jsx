@@ -20,16 +20,16 @@ const DevHero = () => {
           >
             Full Stack
             <br />
-            Web Developer?
+            Web Dev
           </motion.span>
 
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}
           >
-            All in one solutons provider.
+            All in one web provider.
             <br />
-            Find out more about FullWedbDevKev.
+            Kickstart your Business.
           </motion.span>
         </div>
 

@@ -25,6 +25,11 @@
     }
 
     .person {
+      margin-top: -16em;
+      // @media (max-width: $lg) {
+      // bottom: -14rem;
+      // }
+
       @media (max-width: $sm), (max-width: $md) {
         position: relative;
         left: 0;
@@ -33,9 +38,10 @@
         align-items: center;
         justify-content: center;
         background-position: bottom;
+        bottom: -18rem;
       }
       position: absolute;
-      bottom: -12rem;
+
       width: 100%;
       /* margin-left: 25%; */
       display: flex;
