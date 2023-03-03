@@ -1,12 +1,15 @@
 # TODO
 
-- [ ] add react helmet for proper seo
+- [ ] connect email form
+- [ ] add my link to everyone elses pages.
+- [ ] fix refresh issue
+- [Done] add react helmet for proper seo
 - [ ] add google analytics
 - [ ] add google tag manager
-- [ ] add google search console
+- [Done] add google search console
 - [ ] add google webmaster tools
-- [ ] add google fonts
-- [ ] add favicon
+- [Done] add google fonts
+- [Done add favicon
 - [ ] add Social tags are totally missing
       TIP
 
